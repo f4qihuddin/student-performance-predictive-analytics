@@ -225,8 +225,6 @@ if predict_clicked:
             st.write("**Student Status: :green[Graduate]**")
         elif status == "Dropout":
             st.write("**Student Status: :red[Dropout]**")
-        else:
-            st.write("**Student Status: :orange[Enrolled]**")
 
         with st.expander("View the Preprocessed Data"):
             st.dataframe(data=new_data, width=800, height=65)
